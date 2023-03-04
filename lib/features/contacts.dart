@@ -5,14 +5,14 @@ import 'package:contact_app/features/view_contacts.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class ContactScreen extends StatefulWidget {
-  const ContactScreen({super.key});
+class ContactPage extends StatefulWidget {
+  const ContactPage({super.key});
 
   @override
-  State<ContactScreen> createState() => _ContactScreenState();
+  State<ContactPage> createState() => _ContactPageState();
 }
 
-class _ContactScreenState extends State<ContactScreen> {
+class _ContactPageState extends State<ContactPage> {
   late Query collectionReference;
   @override
   void initState() {

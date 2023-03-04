@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Contact Application',
       theme: Themes.appTheme(),
-      home: const ContactScreen(),
+      home: const ContactPage(),
     );
   }
 }
